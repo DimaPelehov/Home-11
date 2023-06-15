@@ -19,28 +19,36 @@
 
 // -------ДЗ 11.1--------------
 
-// let userNamber= prompt ('Введіть своє число і отримайте його в квадраті');
+ let userNamber= prompt ('Введіть своє число і отримайте його в квадраті');
 
-// alert (userNamber*userNamber);
+ alert (userNamber*userNamber);
+
+
+
+
 
 // -----------ДЗ 11.2-----------------
 
-// let userName = prompt("Введіть своє ім*я");
-// let userSum = prompt("Введіть сумму");
-// let userMonths = prompt("Зазначте строк дій депозиту");
+ let userName = prompt("Введіть своє ім*я");
+ let userSum = prompt("Введіть сумму");
+ let userMonths = prompt("Зазначте строк дій депозиту");
 
-// let firstText = "Шановний";
-// let secondText = "Ви внесли";
-// let thirdText = "грн., під 20% річних, на термін";
-// let fourthText = "місяців. За цей період часу Ви заробите";
-// let fifthText = "грн.";
+ let firstText = "Шановний";
+ let secondText = "Ви внесли";
+ let thirdText = "грн., під 20% річних, на термін";
+ let fourthText = "місяців. За цей період часу Ви заробите";
+ let fifthText = "грн.";
 
-// let n = userSum;
-// n *= 0.2;
-// n /= 12;
-// n *= userMonths;
+let n = userSum;
+  n *= 0.2;
+ n /= 12;
+ n *= userMonths;
 
-// alert (firstText+" "+userName+" "+secondText+" "+userSum+" "+thirdText+" "+userMonths+" "+fourthText+" "+n+" "+fifthText);
+alert (firstText+" "+userName+" "+secondText+" "+userSum+" "+thirdText+" "+userMonths+" "+fourthText+" "+n+" "+fifthText);
+
+
+
+
 
 // ---------------------ДЗ 11.3------------------------------
 
