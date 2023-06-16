@@ -55,7 +55,7 @@ alert (firstText+" "+userName+" "+secondText+" "+userSum+" "+thirdText+" "+userM
 let userAnumber = prompt("Введіть число а");
 let userBnumber = prompt("Введіть число b");
 
-let sum = userAnumber + userBnumber;
+let sum = +userAnumber + +userBnumber;
 let difference = userAnumber - userBnumber;
 let multiplication = userAnumber * userBnumber;
 let division = userAnumber / userBnumber;
