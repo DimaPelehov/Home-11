@@ -148,17 +148,18 @@ alert(age(yearNow, userAge));
 
 // ------------------ДЗ 14.4----------------------------------------------------------
 
-let clientAge = +prompt("введіть свій рік народження");
+let clientYear = +prompt("введіть свій рік народження");
 let userName = prompt("введіть своє ім'я");
 let yearToday = +"2023";
-let age = yearToday - clientAge;
-let yearsPensia = 60 - age;
+let clientAge = yearToday - clientYear;
+let yearsPensia = 60 - clientAge;
 
-function yearsUntilRetirement(age, userName) {
-  if (age >= 60) {
+function yearsUntilRetirement(clientAge, userName) {
+  if (clientAge >= 60) {
     console.log(`${userName} вже на пенсії`);
   } else {
     console.log(`${userName} вийде на пенсію через ${yearsPensia} років`);
   }
 }
-yearsUntilRetirement(age, userName);
+
+yearsUntilRetirement(clientAge, userName);
