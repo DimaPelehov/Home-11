@@ -134,3 +134,31 @@ function max(a, b) {
 }
 
 alert(max(a, b));
+
+// ------------------ДЗ 14.3----------------------------------------------------------
+
+let userAge = +prompt("введіть рік народження");
+let yearNow = +"2023";
+
+function age(yearNow, userAge) {
+  return yearNow - userAge;
+}
+
+alert(age(yearNow, userAge));
+
+// ------------------ДЗ 14.4----------------------------------------------------------
+
+let clientAge = +prompt("введіть свій рік народження");
+let userName = prompt("введіть своє ім'я");
+let yearToday = +"2023";
+let age = yearToday - clientAge;
+let yearsPensia = 60 - age;
+
+function yearsUntilRetirement(age, userName) {
+  if (age >= 60) {
+    console.log(`${userName} вже на пенсії`);
+  } else {
+    console.log(`${userName} вийде на пенсію через ${yearsPensia} років`);
+  }
+}
+yearsUntilRetirement(age, userName);
