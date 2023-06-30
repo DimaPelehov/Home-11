@@ -230,42 +230,42 @@
 // yearsUntilRetirement(+prompt("Ваш рік народження"), prompt("Ваше ім'я"));
 
 // ------------------------------------ДЗ 15.1--------------------------------------------
-function weekFn(n) {
-  switch (n) {
-    case 1:
-      alert("Понеділок");
-      break;
+// function weekFn(n) {
+//   switch (n) {
+//     case 1:
+//       alert("Понеділок");
+//       break;
 
-    case 2:
-      alert("Вівторок");
-      break;
+//     case 2:
+//       alert("Вівторок");
+//       break;
 
-    case 3:
-      alert("Середа");
-      break;
+//     case 3:
+//       alert("Середа");
+//       break;
 
-    case 4:
-      alert("Четвер");
-      break;
+//     case 4:
+//       alert("Четвер");
+//       break;
 
-    case 5:
-      alert("П'ятниця");
-      break;
+//     case 5:
+//       alert("П'ятниця");
+//       break;
 
-    case 6:
-      alert("Субота");
-      break;
+//     case 6:
+//       alert("Субота");
+//       break;
 
-    case 7:
-      alert("Неділя");
-      break;
+//     case 7:
+//       alert("Неділя");
+//       break;
 
-    default:
-      alert(null);
-  }
-}
+//     default:
+//       alert(null);
+//   }
+// }
 
-console.log(weekFn(+prompt("введіть номер дня тижня")));
+// console.log(weekFn(+prompt("введіть номер дня тижня")));
 
 // -----------------------------------------ДЗ 15.2--------------------------------
 
@@ -297,4 +297,4 @@ function foo(c) {
   }
 }
 
-console.log(foo(c));
+alert(foo(c));
