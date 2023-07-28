@@ -288,7 +288,7 @@ function min(a, b) {
   }
 }
 
-let c = confirm("Сказати яке більше число?");
+let c = confirm("с=true?");
 function foo(c) {
   if (c === true) {
     alert(max(a, b));
@@ -297,4 +297,25 @@ function foo(c) {
   }
 }
 
-alert(foo(c));
+foo(c);
+
+// -----------------------------------ДЗ 15.3---------------------------------------------------
+let howCategories = +prompt("Скільки категорій витрат?");
+let newobject = {};
+
+for (i = 0; i < howCategories; i++) {
+  let nameCategories = prompt("Назви категорій?");
+  let moneyCategories = +prompt("Скільки грошей витратили на категорію?");
+  newobject[nameCategories] = moneyCategories;
+}
+
+let sum = 0;
+function sumMoney(newobject) {
+  for (let key in newobject) {
+    sum += newobject[key];
+  }
+}
+
+sumMoney(newobject);
+console.log(newobject);
+console.log(`За місяць ви витратили ${sum}`);
